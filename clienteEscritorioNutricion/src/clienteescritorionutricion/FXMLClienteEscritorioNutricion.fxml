@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="384.0" prefWidth="515.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clienteescritorionutricionn.FXMLClienteEscritorioNutricionController">
+    <children>
+      <Button id="ButtonLogin" fx:id="btnInicioSesion" layoutX="202.0" layoutY="285.0" mnemonicParsing="false" stylesheets="@estilo.css" text="Inicio Sesion" />
+      <TextField fx:id="tfNumPersonal" layoutX="161.0" layoutY="102.0" />
+      <PasswordField fx:id="tfPassword" layoutX="161.0" layoutY="192.0" />
+      <Label fx:id="labelErrorPersonal" layoutX="164.0" layoutY="129.0" prefHeight="17.0" prefWidth="149.0" textFill="#cd0c0c" />
+      <Label id="LabelTitulo" fx:id="lbInicioSesion" layoutX="196.0" layoutY="34.0" prefHeight="17.0" prefWidth="100.0" text="Inicio de Sesión " />
+      <Label fx:id="labelErrorPassword" layoutX="164.0" layoutY="219.0" prefHeight="17.0" prefWidth="149.0" textFill="#cd1a1a" />
+      <Label id="LabelNumeroPersonal" fx:id="lbNuemeroPersonal" layoutX="161.0" layoutY="85.0" text="Número de personal" />
+      <Label fx:id="lbContraseña" layoutX="163.0" layoutY="175.0" text="Contraseña" />
+    </children>
+</AnchorPane>

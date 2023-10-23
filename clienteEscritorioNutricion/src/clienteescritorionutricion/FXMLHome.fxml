@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clienteescritorionutricion.FXMLHomeController">
+   <children>
+      <ToolBar fx:id="tbHome" layoutX="2.0" layoutY="6.0" prefHeight="40.0" prefWidth="594.0">
+        <items>
+            <Label fx:id="lbNombrePagina" text="NUTRICIÓN" />
+          <Button fx:id="btnInicio" mnemonicParsing="false" text="Inicio" />
+            <Button fx:id="btnRegistro" mnemonicParsing="false" text="Registro" />
+            <Button mnemonicParsing="false" text="Pacientes" />
+            <Button fx:id="btnInicioSesion" mnemonicParsing="false" text="Inicio sesión" />
+        </items>
+      </ToolBar>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="58.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/nitricion.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="328.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/nutricion2.jpeg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="310.0" layoutY="68.0" prefHeight="140.0" prefWidth="238.0" text="Información&#10;" />
+      <TextArea layoutX="50.0" layoutY="238.0" prefHeight="140.0" prefWidth="220.0" text="Información" />
+   </children>
+</AnchorPane>

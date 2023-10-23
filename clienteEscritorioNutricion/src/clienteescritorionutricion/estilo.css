@@ -1,0 +1,22 @@
+
+AnchorPane
+{
+    -fx-background-color: lavender;
+}
+
+#LabelTitulo
+{
+    -fx-text-fill: black;
+    -fx-font: 15px;
+}
+
+#LabelNumeroPersonal
+{
+    -fx-text-fill: black;
+}
+
+#ButtonLogin
+{
+    -fx-background-color: gray;
+}
+

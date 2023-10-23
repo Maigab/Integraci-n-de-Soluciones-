@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clienteescritorionutricion.FXMLFormularioPacientesController">
+   <children>
+      <Label fx:id="lblRegistroPacientes" layoutX="239.0" layoutY="37.0" prefHeight="17.0" prefWidth="122.0" text="Registro de Pacientes" />
+      <TextField fx:id="tfNombre" layoutX="116.0" layoutY="67.0" />
+      <Label fx:id="lbNombre" layoutX="54.0" layoutY="72.0" text="Nombre:" />
+      <Label fx:id="lbaApellidoPaterno" layoutX="47.0" layoutY="109.0" text="Apellido paterno:" />
+      <Label fx:id="lbApellidoMaterno" layoutX="48.0" layoutY="148.0" text="Apellido materno:" />
+      <Label fx:id="lbFechaNacimiento" layoutX="53.0" layoutY="182.0" text="Fecha de nacimiento:" />
+      <Label fx:id="lbSexo" layoutX="52.0" layoutY="217.0" text="Sexo:" />
+      <Label fx:id="lbPeso" layoutX="52.0" layoutY="252.0" text="Peso:" />
+      <Label fx:id="lbEstatura" layoutX="189.0" layoutY="253.0" text="Estatura:" />
+      <Label fx:id="lbTalla" layoutX="360.0" layoutY="253.0" text="Talla:" />
+      <Label fx:id="lbCorreo" layoutX="47.0" layoutY="289.0" prefHeight="17.0" prefWidth="42.0" text="Correo:" />
+      <Label fx:id="lbTelefono" layoutX="293.0" layoutY="289.0" text="Teléfono:" />
+      <Label fx:id="lbContraseña" layoutX="45.0" layoutY="325.0" text="Contraseña:" />
+      <Label fx:id="lbFoto" layoutX="48.0" layoutY="362.0" text="Fotografia:" />
+      <TextField fx:id="tfApellidoPaterno" layoutX="148.0" layoutY="104.0" />
+      <TextField fx:id="tfApellidoMaterno" layoutX="148.0" layoutY="143.0" />
+      <TextField fx:id="tfFechaNacimiento" layoutX="175.0" layoutY="177.0" />
+      <TextField fx:id="tfPeso" layoutX="94.0" layoutY="247.0" prefHeight="27.0" prefWidth="75.0" />
+      <TextField fx:id="tfEstatura" layoutX="246.0" layoutY="248.0" prefHeight="27.0" prefWidth="94.0" />
+      <TextField fx:id="tfTalla" layoutX="397.0" layoutY="248.0" prefHeight="27.0" prefWidth="77.0" />
+      <TextField fx:id="tfCorreo" layoutX="94.0" layoutY="284.0" />
+      <TextField fx:id="tfTelefono" layoutX="356.0" layoutY="284.0" />
+      <TextField fx:id="tfContraseña" layoutX="117.0" layoutY="320.0" />
+      <Button fx:id="btnFoto" layoutX="115.0" layoutY="357.0" mnemonicParsing="false" text="Seleccionar fotografíaia" />
+      <RadioButton fx:id="rbSexoHombre" layoutX="96.0" layoutY="217.0" mnemonicParsing="false" text="Hombre" />
+      <RadioButton fx:id="rbSexoMujer" layoutX="182.0" layoutY="217.0" mnemonicParsing="false" text="Mujer" />
+      <Button fx:id="btnRegistrar" layoutX="425.0" layoutY="384.0" mnemonicParsing="false" text="Registrar" />
+   </children>
+</AnchorPane>
